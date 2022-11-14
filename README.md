@@ -96,7 +96,7 @@ This project is released under [GPLv3](http://www.gnu.org/licenses/) license.
 
 1) We would like to thank the Hyperspectral Image Analysis group and the NSF Funded Center for
    Airborne Laser Mapping (NCALM) at the University of Houston for providing the UH data set used in this work.
-2) Part of our HSIC framework is redered to [HybridSN](https://github.com/gokriznastic/HybridSN), [A2S2K-ResNet](https://github.com/suvojit-0x55aa/A2S2K-ResNet), and [CNN_Enhanced_GCN](https://github.com/qichaoliu/CNN_Enhanced_GCN). Please also follow their licenses. Thanks for their awesome works.        
+2) Part of our HSIC framework is referred to [HybridSN](https://github.com/gokriznastic/HybridSN), [A2S2K-ResNet](https://github.com/suvojit-0x55aa/A2S2K-ResNet), and [CNN_Enhanced_GCN](https://github.com/qichaoliu/CNN_Enhanced_GCN). Please also follow their licenses. Thanks for their awesome works.        
 3) Among the adopted compared methods, we also would like to thank Assistant Professor [Xiangtao Zheng](https://xiangtaozheng.github.io/) and 
    Dr. Xuming Zhang for providing the source tensorflow code of [SSAN](https://ieeexplore.ieee.org/document/8909379) and
    the part of source keras code of [SSSAN](https://ieeexplore.ieee.org/document/9508777?arnumber=9508777), respectively.
