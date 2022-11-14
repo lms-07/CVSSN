@@ -30,17 +30,12 @@ Hyperspectral Image Classification](https://ieeexplore.ieee.org/document/9933425
 
 |                   CVSSN Framwork
 | :-----------------------------------------: |
-| <img src="./src/CVSSN.png"  height=320>  |
+| <img src="./src/CVSSN.png"  >  |
 
 |                  AWA-SVSS                |               ED-FVSS               |
 | :-----------------------------------------: | :-----------------------------------------: |
-|   <img src="./src/AWA-SVSS.png"  height='200px'/>    | <img src="./src/ED-FVSS.png" height=320>  |
+|   <img src="./src/AWA-SVSS.png"  height=300>    | <img src="./src/ED-FVSS.png" height=320>  |
 
-![CVSSN](./src/CVSSN.png)
-
-![AWA-SVSS](./src/AWA-SVSS.png)
-
-![ED-FVSS](./src/ED-FVSS.png)
 
 ## Environment
 ```text
