@@ -12,7 +12,7 @@ Hyperspectral Image Classification](https://ieeexplore.ieee.org/document/9933425
 ## Contents
 1. [Brief Introduction](#Brief-Introduction)
 1. [Environment](#Environment)
-1. [Data Sets](#Data Sets)
+1. [Data Sets](#Data-Sets)
 1. [Citation](#Citation)
 1. [License and Acknowledgement](License-and-Acknowledgement)
 
@@ -23,7 +23,7 @@ Hyperspectral Image Classification](https://ieeexplore.ieee.org/document/9933425
 | :-----------------------------------------: |
 | <img src="./src/CVSSN.png"  >  |
 
-|                  AWA-SVSS                |               ED-FVSS               |
+|              AWA-SVSS Module                |               ED-FVSS Module                |
 | :-----------------------------------------: | :-----------------------------------------: |
 |   <img src="./src/AWA-SVSS.png" >    | <img src="./src/ED-FVSS.png" >  |
 
