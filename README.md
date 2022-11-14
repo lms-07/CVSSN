@@ -10,23 +10,14 @@ This repository is the official implementation of our paper:
 Hyperspectral Image Classification](https://ieeexplore.ieee.org/document/9933425?arnumber=9933425&tag=1), IEEE TCSVT 2022.
 
 ## Contents
-1. [Brief Introduction](#Brief Introduction)
+1. [Brief Introduction](#Brief-Introduction)
 1. [Environment](#Environment)
 1. [Data Sets](#Data Sets)
 1. [Citation](#Citation)
-1. [License and Acknowledgement](License and Acknowledgement)
-
-
-[comment]: <> (1. [License and Acknowledgement]&#40;#License-and-Acknowledgement&#41;)
+1. [License and Acknowledgement](License-and-Acknowledgement)
 
 ## Brief Introduction
 > To mine the spectral-spatial information of target pixel in hyperspectral image classification (HSIC), convolutional neural network (CNN)-based models widely adopt patch-based input pattern, where a patch represents its central pixel and the neighbor pixels play auxiliary roles in the classification process. However, compared to the central pixel, its neighbor pixels often have different contributions for classification. Although many existing patch-based CNNs could adaptively emphasize the spatial neighbor information, most of them ignore the latent relationship between the center pixel and its neighbor pixels. Moreover, efficient spectral-spatial feature extraction has been a difficult yet vital topic for HSIC. To address the mentioned problems, a central vector oriented self-similarity network (CVSSN) is proposed for HSIC. Specifically, based on two similarity measures, we firstly design an adaptive weight addition based spectral vector self-similarity module (AWA-SVSS) in input space and a Euclidean distance based feature vector self-similarity module (ED-FVSS) in feature space to fully mine the central vector oriented spatial relationships. Besides, a spectral-spatial information fusion module (SSIF) is formulated as a new pattern to fuse the central 1D spectral vector and the corresponding 3D patch for efficient spectral-spatial feature learning of the subsequent modules. Moreover, we implement a channel spatial separation convolution module (CSS-Conv) and a scale information complementary convolution module (SIC-Conv) for efficient spectral-spatial feature learning. Extensive experimental results on four popular HSI data sets demonstrate the effectiveness and efficiency of the proposed method compared with other state-of-the-art methods. The source code is available at https://github.com/lms-07/CVSSN.
-
-><p align="center">
-
-  <img width="800" src="./src/CVSSN.png">
-
-</p>
 
 |                   CVSSN Framwork
 | :-----------------------------------------: |
