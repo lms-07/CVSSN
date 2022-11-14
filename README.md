@@ -34,7 +34,7 @@ Hyperspectral Image Classification](https://ieeexplore.ieee.org/document/9933425
 
 |                  AWA-SVSS                |               ED-FVSS               |
 | :-----------------------------------------: | :-----------------------------------------: |
-|   <img src="./src/AWA-SVSS.png"  height=300>    | <img src="./src/ED-FVSS.png" height=320>  |
+|   <img src="./src/AWA-SVSS.png" >    | <img src="./src/ED-FVSS.png" >  |
 
 
 ## Environment
