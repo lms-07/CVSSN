@@ -29,12 +29,11 @@ Hyperspectral Image Classification](https://ieeexplore.ieee.org/document/9933425
 
 
 ## Environment
-```text
-1) The software environment is Ubuntu 18.04.5 LTS 64 bit.
-2) This project is running on a single Nvidia GeForce RTX 3090 GPU based on Cuda 11.0.
-3) We adopt Python 3.8.5, Pytorch 1.8.1+cu111.
-4) The py+torch combination may not limietd by our adopted one.
-```
+- The software environment is Ubuntu 18.04.5 LTS 64 bit.
+- This project is running on a single Nvidia GeForce RTX 3090 GPU based on Cuda 11.0.
+- We adopt Python 3.8.5, Pytorch 1.8.1+cu111.
+- The py+torch combination may not limietd by our adopted one.
+
 
 ## Data Sets
 
@@ -94,10 +93,10 @@ If you have any problem, please do not hesitate to contact us `msli@mail.sdu.edu
 ## License and Acknowledgement
 This project is released under [GPLv3](http://www.gnu.org/licenses/) license.
 
-1) We would like to thank the Hyperspectral Image Analysis group and the NSF Funded Center for
+- We would like to thank the Hyperspectral Image Analysis group and the NSF Funded Center for
    Airborne Laser Mapping (NCALM) at the University of Houston for providing the UH data set used in this work.
-2) Part of our HSIC framework is referred to [HybridSN](https://github.com/gokriznastic/HybridSN), [A2S2K-ResNet](https://github.com/suvojit-0x55aa/A2S2K-ResNet), and [CNN_Enhanced_GCN](https://github.com/qichaoliu/CNN_Enhanced_GCN). Please also follow their licenses. Thanks for their awesome works.        
-3) Among the adopted compared methods, we also would like to thank Assistant Professor [Xiangtao Zheng](https://xiangtaozheng.github.io/) and 
+- Part of our HSIC framework is referred to [HybridSN](https://github.com/gokriznastic/HybridSN), [A2S2K-ResNet](https://github.com/suvojit-0x55aa/A2S2K-ResNet), and [CNN_Enhanced_GCN](https://github.com/qichaoliu/CNN_Enhanced_GCN). Please also follow their licenses. Thanks for their awesome works.        
+- Among the adopted compared methods, we also would like to thank Assistant Professor [Xiangtao Zheng](https://xiangtaozheng.github.io/) and 
    Dr. Xuming Zhang for providing the source tensorflow code of [SSAN](https://ieeexplore.ieee.org/document/8909379) and
    the part of source keras code of [SSSAN](https://ieeexplore.ieee.org/document/9508777?arnumber=9508777), respectively.
 
