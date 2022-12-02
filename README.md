@@ -1,3 +1,12 @@
+	
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/exploring-the-relationship-between-center-and/hyperspectral-image-classification-on-kennedy)](https://paperswithcode.com/sota/hyperspectral-image-classification-on-kennedy?p=exploring-the-relationship-between-center-and)
+	
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/exploring-the-relationship-between-center-and/hyperspectral-image-classification-on-casi)](https://paperswithcode.com/sota/hyperspectral-image-classification-on-casi?p=exploring-the-relationship-between-center-and)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/exploring-the-relationship-between-center-and/hyperspectral-image-classification-on-pavia)](https://paperswithcode.com/sota/hyperspectral-image-classification-on-pavia?p=exploring-the-relationship-between-center-and)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/exploring-the-relationship-between-center-and/hyperspectral-image-classification-on-indian)](https://paperswithcode.com/sota/hyperspectral-image-classification-on-indian?p=exploring-the-relationship-between-center-and)
+
 # Exploring the Relationship between Center and Neighborhoods: Central Vector oriented Self-Similarity Network for Hyperspectral Image Classification
 
 [Mingsong Li](https://orcid.org/0000-0001-6133-3923), Yikun Liu, Guangkuo Xue, [Yuwen Huang](https://jsj.hezeu.edu.cn/info/1302/6525.htm), and [Gongping Yang](https://faculty.sdu.edu.cn/gpyang)
