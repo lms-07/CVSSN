@@ -41,7 +41,7 @@ Hyperspectral Image Classification](https://ieeexplore.ieee.org/document/9933425
 - The software environment is Ubuntu 18.04.5 LTS 64 bit.
 - This project is running on a single Nvidia GeForce RTX 3090 GPU based on Cuda 11.0.
 - We adopt Python 3.8.5, Pytorch 1.8.1+cu111.
-- The py+torch combination may not limietd by our adopted one.
+- The py+torch combination may not limited by our adopted one.
 
 
 ## Data Sets
