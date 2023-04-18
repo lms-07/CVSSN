@@ -44,7 +44,8 @@ Our project is organized as follows:
 
 ```text
 CVSSN
-|-- process_xxx  // main files, cls for two classic methods, and dl for eight deep learning based methods. disjoint for the disjoint dataset (UH).
+|-- process_xxx  // main files, cls for two classic methods, and dl for eight deep learning 
+|                   based methods. disjoint for the disjoint dataset (UH).
 |-- data                    
 |   |-- IP
 |   |   |-- Indian_pines_corrected.mat
@@ -72,7 +73,7 @@ CVSSN
 
 Please kindly cite our work if this work is helpful for your research.
 
-[1] M. Li, Y. Liu, G. Xue, Y. Huang and G. Yang, "Exploring the Relationship Between Center and Neighborhoods: Central Vector Oriented Self-Similarity Network for Hyperspectral Image Classification," in IEEE Transactions on Circuits and Systems for Video Technology, vol. 33, no. 4, pp. 1979-1993, April 2023, doi: 10.1109/TCSVT.2022.3218284.
+[1] M. Li, Y. Liu, G. Xue, Y. Huang and G. Yang, "Exploring the Relationship Between Center and Neighborhoods: Central Vector Oriented Self-Similarity Network for Hyperspectral Image Classification," in *IEEE Transactions on Circuits and Systems for Video Technology*, vol. 33, no. 4, pp. 1979-1993, April 2023, doi: 10.1109/TCSVT.2022.3218284.
 
 BibTex entry:
 ```text
