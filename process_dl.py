@@ -69,9 +69,10 @@ elif model_flag in model_spa_spe_set:
     model_type_flag = 3
 
 # 0-2
-data_set_name_list = ['IP', 'KSC', 'UP', 'HU_tif']
+data_set_name_list = ['IP', 'KSC', 'UP']
 data_set_name = data_set_name_list[0]
 
+# control running times
 # seed_list = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]  #
 # seed_list=[0,1,2,3,4]
 # seed_list=[0,1,2] #
@@ -244,15 +245,8 @@ if __name__ == '__main__':
                 for X_spa, X_spe, y in train_iter:
                     X_spa, X_spe, y = X_spa.to(device), X_spe.to(device), y.to(device)
                     y_pred = net(X_spa, X_spe)
-                    if model_flag == 10:
-                        for i in range(len(y_pred)):
-                            if i == 0:
-                                ls = loss(y_pred[i], y.long())
-                            if i > 0:
-                                ls += loss(y_pred[i], y.long())
-                    else:
 
-                        ls = loss(y_pred, y.long())
+                    ls = loss(y_pred, y.long())
 
                     optimizer.zero_grad()
                     ls.backward()

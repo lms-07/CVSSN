@@ -7,7 +7,7 @@
 -----------
 This repository is the official implementation of our paper:
 [Exploring the Relationship between Center and Neighborhoods: Central Vector oriented Self-Similarity Network for
-Hyperspectral Image Classification](https://ieeexplore.ieee.org/document/9933425?arnumber=9933425&tag=1), IEEE TCSVT 2022.
+Hyperspectral Image Classification](https://doi.org/10.1109/TCSVT.2022.3218284), IEEE TCSVT 2022.
 
 ## Contents
 1. [Brief Introduction](#Brief-Introduction)
@@ -31,20 +31,20 @@ Hyperspectral Image Classification](https://ieeexplore.ieee.org/document/9933425
 ## Environment
 - The software environment is Ubuntu 18.04.5 LTS 64 bit.
 - This project is running on a single Nvidia GeForce RTX 3090 GPU based on Cuda 11.0.
-- We adopt Python 3.8.5, Pytorch 1.8.1+cu111.
+- We adopt Python 3.8.5, PyTorch 1.8.1+cu111.
 - The py+torch combination may not limietd by our adopted one.
 
 
 ## Data Sets
 
-Four popular HSI data sets are adopted in our experiments, i.e., Indian Pines (IP), Kennedy Space Center (KSC),  University of Pavia (UP), and University of Houston 13 (UH).
-The first threee data sets could be access through [link1](http://www.ehu.eus/ccwintco/index.php?title=Hyperspectral_Remote_Sensing_Scenes##anomaly_detection), 
+Four popular HSI data sets are adopted in our experiments, i.e., Indian Pines (IP), Kennedy Space Center (KSC), University of Pavia (UP), and University of Houston 13 (UH).
+The first three data sets could be access through [link1](http://www.ehu.eus/ccwintco/index.php?title=Hyperspectral_Remote_Sensing_Scenes##anomaly_detection), 
 and the UH data set through [link2](https://hyperspectral.ee.uh.edu/?page_id=459). 
 Our project is organized as follows:
 
 ```text
 CVSSN
-|-- process_cls_xxx         // main files 
+|-- process_xxx  // main files, cls for two classic methods, and dl for eight deep learning based methods. disjoint for the disjoint dataset (UH).
 |-- data                    
 |   |-- IP
 |   |   |-- Indian_pines_corrected.mat
@@ -72,17 +72,20 @@ CVSSN
 
 Please kindly cite our work if this work is helpful for your research.
 
-[1] M. Li, Y. Liu, G. Xue, Y. Huang and G. Yang, "Exploring the Relationship between Center and Neighborhoods: Central Vector oriented Self-Similarity Network for Hyperspectral Image Classification," in IEEE Transactions on Circuits and Systems for Video Technology, 2022, doi: 10.1109/TCSVT.2022.3218284.
+[1] M. Li, Y. Liu, G. Xue, Y. Huang and G. Yang, "Exploring the Relationship Between Center and Neighborhoods: Central Vector Oriented Self-Similarity Network for Hyperspectral Image Classification," in IEEE Transactions on Circuits and Systems for Video Technology, vol. 33, no. 4, pp. 1979-1993, April 2023, doi: 10.1109/TCSVT.2022.3218284.
 
 BibTex entry:
 ```text
 @article{li2022exploring,
-title={Exploring the Relationship between Center and Neighborhoods: Central Vector oriented Self-Similarity Network for Hyperspectral Image Classification},
-author={Li, Mingsong and Liu, Yikun and Xue, Guangkuo and Huang, Yuwen and Yang, Gongping},
-journal={IEEE Transactions on Circuits and Systems for Video Technology},
-year={2022},
-publisher={IEEE}
-url={https://doi.org/10.1109%2Ftcsvt.2022.3218284}
+   title={Exploring the Relationship between Center and Neighborhoods: Central Vector oriented Self-Similarity Network for Hyperspectral Image Classification},
+   author={Li, Mingsong and Liu, Yikun and Xue, Guangkuo and Huang, Yuwen and Yang, Gongping},
+   journal={IEEE Transactions on Circuits and Systems for Video Technology},
+   year={2023},
+   volume={33},
+   number={4},
+   pages={1979-1993},
+   doi={10.1109/TCSVT.2022.3218284},
+   publisher={IEEE}
 }
 ```
 

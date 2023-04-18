@@ -12,14 +12,6 @@ import numpy as np
 
 from torch import cosine_similarity
 
-# import model.self_sim as self_sim
-
-# import random
-
-# import model.self_atten as self_atten
-# import model.sim_atten as sim_atten
-# import model.Attention as atten
-
 
 def conv1x1(in_ch, out_ch, stride=1):
     return nn.Conv2d(in_ch, out_ch, kernel_size=1, stride=stride, bias=False)
