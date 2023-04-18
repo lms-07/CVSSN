@@ -75,12 +75,12 @@ For comparisons, our codebase also includes related compared methods.
 - RF, PyTorch version, sklearn-based
 - SVM, PyTorch version, sklearn-based
 - ContextNet, [Going Deeper With Contextual CNN for Hyperspectral Image Classification](https://ieeexplore.ieee.org/document/7973178) TIP 2017, ***our corrected version*** from a HSIC Tool Codebase, https://github.com/eecn/Hyperspectral-Classification
-- RSSAN, [Residual Spectral–Spatial Attention Network for Hyperspectral Image Classification](https://ieeexplore.ieee.org/document/9103247) TGRS 2020, from an unoffical PyTorch implementation, https://github.com/lierererniu/RSSAN-Hyperspectral-Image
-- SSTN, [Spectral-Spatial Transformer Network for Hyperspectral Image Classification: A Factorized Architecture Search Framework](https://ieeexplore.ieee.org/document/9565208) TGRS 2021, from offical PyTorch version, https://github.com/zilongzhong/SSTN/blob/main/NetworksBlocks.py
+- RSSAN, [Residual Spectral–Spatial Attention Network for Hyperspectral Image Classification](https://ieeexplore.ieee.org/document/9103247) TGRS 2020, from an unofficial PyTorch implementation, https://github.com/lierererniu/RSSAN-Hyperspectral-Image
+- SSTN, [Spectral-Spatial Transformer Network for Hyperspectral Image Classification: A Factorized Architecture Search Framework](https://ieeexplore.ieee.org/document/9565208) TGRS 2021, from official PyTorch version, https://github.com/zilongzhong/SSTN/blob/main/NetworksBlocks.py
 - SSAN, [Spectral–Spatial Attention Network for Hyperspectral Image Classification](https://ieeexplore.ieee.org/document/8909379) TGRS 2019, ***our unofficial PyTorch implementation*** based on TensorFlow version, https://github.com/XiangtaoZheng/SSAN
 - SSSAN, [Spectral–Spatial Self-Attention Networks for Hyperspectral Image Classification](https://ieeexplore.ieee.org/document/9508777) TGRS 2021, ***our unofficial PyTorch implementation*** based on the part of source Keras code from the author Dr. Xuming Zhang
 - SSAtt, [Hyperspectral Image Classification With Attention-Aided CNNs](https://ieeexplore.ieee.org/abstract/document/9142417) TGRS 2020, from a PyTorch implementation, https://github.com/weecology/DeepTreeAttention/blob/main/src/models/Hang2020.py
-- A2S2K-ResNet, [Attention-Based Adaptive Spectral-Spatial Kernel ResNet for Hyperspectral Image Classification](https://ieeexplore.ieee.org/document/9306920) TGRS 2020, from offical PyTorch version, https://github.com/suvojit-0x55aa/A2S2K-ResNet/blob/master/A2S2KResNet/A2S2KResNet.py
+- A2S2K-ResNet, [Attention-Based Adaptive Spectral-Spatial Kernel ResNet for Hyperspectral Image Classification](https://ieeexplore.ieee.org/document/9306920) TGRS 2020, from official PyTorch version, https://github.com/suvojit-0x55aa/A2S2K-ResNet/blob/master/A2S2KResNet/A2S2KResNet.py
   
 
 ## Citation
