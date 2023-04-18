@@ -12,7 +12,8 @@ Hyperspectral Image Classification](https://doi.org/10.1109/TCSVT.2022.3218284),
 ## Contents
 1. [Brief Introduction](#Brief-Introduction)
 1. [Environment](#Environment)
-1. [Data Sets](#Data-Sets)
+1. [Datasets and File Hierarchy](#Datasets-and-File-Hierarchy)
+1. [Implementations of Compared Methods](#Implementations-of-Compared-Methods)
 1. [Citation](#Citation)
 1. [License and Acknowledgement](License-and-Acknowledgement)
 
@@ -35,7 +36,7 @@ Hyperspectral Image Classification](https://doi.org/10.1109/TCSVT.2022.3218284),
 - The py+torch combination may not limietd by our adopted one.
 
 
-## Data Sets
+## Data Sets and File Hierarchy
 
 Four popular HSI data sets are adopted in our experiments, i.e., Indian Pines (IP), Kennedy Space Center (KSC), University of Pavia (UP), and University of Houston 13 (UH).
 The first three data sets could be access through [link1](http://www.ehu.eus/ccwintco/index.php?title=Hyperspectral_Remote_Sensing_Scenes##anomaly_detection), 
@@ -44,8 +45,8 @@ Our project is organized as follows:
 
 ```text
 CVSSN
-|-- process_xxx  // main files, cls for two classic methods, and dl for eight deep learning 
-|                   based methods. disjoint for the disjoint dataset (UH).
+|-- process_xxx     // main files 1) cls for two classic methods 2) dl for eight dl
+|                      based methods 3) disjoint for the disjoint dataset (UH)
 |-- data                    
 |   |-- IP
 |   |   |-- Indian_pines_corrected.mat
@@ -60,14 +61,27 @@ CVSSN
 |   |   |--Houston13_data.mat
 |   |   |--Houston13_gt_train.mat
 |   |   |--Houston13_gt_test.mat
-|-- model                   // the compared methodes and our proposed method
+|-- model           // seven dl based compared methods and our proposed method
 |-- output
-|   |-- cls_maps            // classification map visualizations 
-|   |-- results             // classification result files
-|-- src                     // source files
-|-- utils                   // data loading, processing, and evaluating
-|-- visual                  // cls maps visual
+|   |-- cls_maps    // classification map visualizations 
+|   |-- results     // classification result files
+|-- src             // source files
+|-- utils           // data loading, processing, and evaluating
+|-- visual          // cls maps visual
 ```
+
+## Implementations of Compared Methods
+For comparisons, our codebase also includes related compared methods.
+- RF, PyTorch version, sklearn-based
+- SVM, PyTorch version, sklearn-based
+- ContextNet, [Going Deeper With Contextual CNN for Hyperspectral Image Classification](https://ieeexplore.ieee.org/document/7973178) TIP 2017, ***our corrected version*** from a HSIC Tool Codebase, https://github.com/eecn/Hyperspectral-Classification
+- RSSAN, [Residual Spectral–Spatial Attention Network for Hyperspectral Image Classification](https://ieeexplore.ieee.org/document/9103247) TGRS 2020, from an unoffical PyTorch implementation, https://github.com/lierererniu/RSSAN-Hyperspectral-Image
+- SSTN, [Spectral-Spatial Transformer Network for Hyperspectral Image Classification: A Factorized Architecture Search Framework](https://ieeexplore.ieee.org/document/9565208) TGRS 2021, from offical PyTorch version, https://github.com/zilongzhong/SSTN/blob/main/NetworksBlocks.py
+- SSAN, [Spectral–Spatial Attention Network for Hyperspectral Image Classification](https://ieeexplore.ieee.org/document/8909379) TGRS 2019, ***our unofficial PyTorch implementation*** based on TensorFlow version, https://github.com/XiangtaoZheng/SSAN
+- SSSAN, [Spectral–Spatial Self-Attention Networks for Hyperspectral Image Classification](https://ieeexplore.ieee.org/document/9508777) TGRS 2021, ***our unofficial PyTorch implementation*** based on the part of source Keras code from the author Dr. Xuming Zhang
+- SSAtt, [Hyperspectral Image Classification With Attention-Aided CNNs](https://ieeexplore.ieee.org/abstract/document/9142417) TGRS 2020, from a PyTorch implementation, https://github.com/weecology/DeepTreeAttention/blob/main/src/models/Hang2020.py
+- A2S2K-ResNet, [Attention-Based Adaptive Spectral-Spatial Kernel ResNet for Hyperspectral Image Classification](https://ieeexplore.ieee.org/document/9306920) TGRS 2020, from offical PyTorch version, https://github.com/suvojit-0x55aa/A2S2K-ResNet/blob/master/A2S2KResNet/A2S2KResNet.py
+  
 
 ## Citation
 
