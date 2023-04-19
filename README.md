@@ -12,7 +12,7 @@ Hyperspectral Image Classification](https://doi.org/10.1109/TCSVT.2022.3218284),
 ## Contents
 1. [Brief Introduction](#Brief-Introduction)
 1. [Environment](#Environment)
-1. [Datasets and File Hierarchy](#Datasets-and-File-Hierarchy)
+1. [Data Sets and File Hierarchy](#Data-Sets-and-File-Hierarchy)
 1. [Implementations of Compared Methods](#Implementations-of-Compared-Methods)
 1. [Citation](#Citation)
 1. [License and Acknowledgement](License-and-Acknowledgement)
