@@ -1,12 +1,12 @@
-# Exploring the Relationship between Center and Neighborhoods: Central Vector oriented Self-Similarity Network for Hyperspectral Image Classification
+# Exploring the Relationship between Center and Neighborhoods: Central Vector Oriented Self-Similarity Network for Hyperspectral Image Classification
 
-[Mingsong Li](https://orcid.org/0000-0001-6133-3923), Yikun Liu, Guangkuo Xue, [Yuwen Huang](https://jsj.hezeu.edu.cn/info/1302/6525.htm), and [Gongping Yang](https://faculty.sdu.edu.cn/gpyang)
+[Mingsong Li](https://lms-07.github.io/), Yikun Liu, Guangkuo Xue, [Yuwen Huang](https://jsj.hezeu.edu.cn/info/1302/6525.htm), and [Gongping Yang](https://faculty.sdu.edu.cn/gpyang)
 
 [Time Lab](https://time.sdu.edu.cn/), [SDU](https://www.sdu.edu.cn/)
 
 -----------
 This repository is the official implementation of our paper:
-[Exploring the Relationship between Center and Neighborhoods: Central Vector oriented Self-Similarity Network for
+[Exploring the Relationship between Center and Neighborhoods: Central Vector Oriented Self-Similarity Network for
 Hyperspectral Image Classification](https://doi.org/10.1109/TCSVT.2022.3218284), IEEE TCSVT 2022.
 
 ## Contents
