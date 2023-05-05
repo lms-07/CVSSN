@@ -7,7 +7,7 @@
 -----------
 This repository is the official implementation of our paper:
 [Exploring the Relationship between Center and Neighborhoods: Central Vector Oriented Self-Similarity Network for
-Hyperspectral Image Classification](https://doi.org/10.1109/TCSVT.2022.3218284), IEEE TCSVT 2022.
+Hyperspectral Image Classification](https://doi.org/10.1109/TCSVT.2022.3218284), IEEE Transactions on Circuits and Systems for Video Technology (TCSVT) 2022.
 
 ## Contents
 1. [Brief Introduction](#Brief-Introduction)
