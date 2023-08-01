@@ -42,13 +42,13 @@ Hyperspectral Image Classification](https://doi.org/10.1109/TCSVT.2022.3218284),
 - The software environment is Ubuntu 18.04.5 LTS 64 bit.
 - This project is running on a single Nvidia GeForce RTX 3090 GPU based on Cuda 11.0.
 - We adopt Python 3.8.5, PyTorch 1.8.1+cu111.
-- The py+torch combination may not limietd by our adopted one.
+- The py+torch combination may not be limited by our adopted one.
 
 
 ## Data Sets and File Hierarchy
 
 Four popular HSI data sets are adopted in our experiments, i.e., Indian Pines (IP), Kennedy Space Center (KSC), University of Pavia (UP), and University of Houston 13 (UH).
-The first three data sets could be access through [link1](http://www.ehu.eus/ccwintco/index.php?title=Hyperspectral_Remote_Sensing_Scenes##anomaly_detection), 
+The first three data sets could be accessed through [link1](http://www.ehu.eus/ccwintco/index.php?title=Hyperspectral_Remote_Sensing_Scenes##anomaly_detection), 
 and the UH data set through [link2](https://hyperspectral.ee.uh.edu/?page_id=459). 
 Our project is organized as follows:
 
@@ -83,7 +83,7 @@ CVSSN
 For comparisons, our codebase also includes related compared methods.
 - RF, PyTorch version, sklearn-based
 - SVM, PyTorch version, sklearn-based
-- ContextNet, [Going Deeper With Contextual CNN for Hyperspectral Image Classification](https://ieeexplore.ieee.org/document/7973178) TIP 2017, ***our corrected version*** from a HSIC Tool Codebase, https://github.com/eecn/Hyperspectral-Classification
+- ContextNet, [Going Deeper With Contextual CNN for Hyperspectral Image Classification](https://ieeexplore.ieee.org/document/7973178) TIP 2017, ***our corrected version*** from an HSIC Tool Codebase, https://github.com/eecn/Hyperspectral-Classification
 - RSSAN, [Residual Spectral–Spatial Attention Network for Hyperspectral Image Classification](https://ieeexplore.ieee.org/document/9103247) TGRS 2020, from an unofficial PyTorch implementation, https://github.com/lierererniu/RSSAN-Hyperspectral-Image
 - SSTN, [Spectral-Spatial Transformer Network for Hyperspectral Image Classification: A Factorized Architecture Search Framework](https://ieeexplore.ieee.org/document/9565208) TGRS 2021, from official PyTorch version, https://github.com/zilongzhong/SSTN/blob/main/NetworksBlocks.py
 - SSAN, [Spectral–Spatial Attention Network for Hyperspectral Image Classification](https://ieeexplore.ieee.org/document/8909379) TGRS 2019, ***our unofficial PyTorch implementation*** based on TensorFlow version, https://github.com/XiangtaoZheng/SSAN
