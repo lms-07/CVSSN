@@ -7,7 +7,7 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/exploring-the-relationship-between-center-and/hyperspectral-image-classification-on-casi)](https://paperswithcode.com/sota/hyperspectral-image-classification-on-casi?p=exploring-the-relationship-between-center-and)
 
 
-# Exploring the Relationship between Center and Neighborhoods: Central Vector Oriented Self-Similarity Network for Hyperspectral Image Classification
+# [TCSVT 2022] Exploring the Relationship between Center and Neighborhoods: Central Vector Oriented Self-Similarity Network for Hyperspectral Image Classification
 
 [Mingsong Li](https://lms-07.github.io/), Yikun Liu, Guangkuo Xue, [Yuwen Huang](https://jsj.hezeu.edu.cn/info/1302/6525.htm), and [Gongping Yang](https://faculty.sdu.edu.cn/gpyang)
 
@@ -96,19 +96,18 @@ For comparisons, our codebase also includes related compared methods.
 
 Please kindly cite our work if this work is helpful for your research.
 
-[1] M. Li, Y. Liu, G. Xue, Y. Huang and G. Yang, "Exploring the Relationship Between Center and Neighborhoods: Central Vector Oriented Self-Similarity Network for Hyperspectral Image Classification," in *IEEE Transactions on Circuits and Systems for Video Technology*, vol. 33, no. 4, pp. 1979-1993, April 2023, doi: 10.1109/TCSVT.2022.3218284.
+[1] M. Li, Y. Liu, G. Xue, Y. Huang and G. Yang, "Exploring the Relationship Between Center and Neighborhoods: Central Vector Oriented Self-Similarity Network for Hyperspectral Image Classification," in *IEEE Transactions on Circuits and Systems for Video Technology*, vol. 33, no. 4, pp. 1979-1993, April 2023.
 
 BibTex entry:
 ```text
 @article{li2022exploring,
-   title={Exploring the Relationship between Center and Neighborhoods: Central Vector oriented Self-Similarity Network for Hyperspectral Image Classification},
+   title={Exploring the Relationship between Center and Neighborhoods: Central Vector Oriented Self-Similarity Network for Hyperspectral Image Classification},
    author={Li, Mingsong and Liu, Yikun and Xue, Guangkuo and Huang, Yuwen and Yang, Gongping},
    journal={IEEE Transactions on Circuits and Systems for Video Technology},
    year={2023},
    volume={33},
    number={4},
    pages={1979-1993},
-   doi={10.1109/TCSVT.2022.3218284},
    publisher={IEEE}
 }
 ```
