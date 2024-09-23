@@ -52,7 +52,7 @@ device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 model_list = ['ContextualNet', 'RSSAN', 'SSTN', 'SSAN', 'SSSAN', 'SSAtt', 'A2S2KResNet', 'CVSSN']
 
 model_flag = 7
-model_spa_set = {1, 2, 3, 5}
+model_spa_set = {0, 1, 2, 3, 5, 6}
 model_spe_set = {}
 model_spa_spe_set = {4, 7}
 model_3D_spa_set = {0, 6}
